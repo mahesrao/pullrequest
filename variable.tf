@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "key_name" {
   description = " SSH keys to connect to ec2 instance"
-  default     = "n_virginia_key"
+  default     = "aws"
 }
 
 variable "instance_type" {
@@ -23,8 +23,8 @@ variable "tag_name" {
   default     = "my-Terraform_ec2-instance"
 }
 variable "ami_id" {
-  description = "AMI for Ubuntu Ec2 instance"
-  default     = "ami-0022f774911c1d690"
+  description = "AMI for Amazon Linux 2 Ec2 instance"
+  default     = "ami-026b57f3c383c2eec"
 }
 
 
